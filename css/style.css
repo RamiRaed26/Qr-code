@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 375px;
+    background-color: hsl(212, 100%, 95%);
+
+}
+.Cart{
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.Cart .img {
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.Cart .h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+}
+.Cart .point {
+    color: hsl(216, 15%, 48%);
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;    
+    text-align: center;
+}
+
